@@ -1,0 +1,584 @@
+.NavbarMiddle {
+    cursor: pointer;
+    color: var(--3, #FFF);
+    font-family: Avenir LT Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.1s ease-in-out; /* Add a transition effect for smooth color change */
+  }
+  
+  .NavbarMiddle:hover {
+    color: #F0DE00; 
+  }
+.SupportButton{
+    display: flex;
+    cursor: pointer;
+height: 38px;
+min-width: 131px;
+padding: 7px 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+border: 1px solid var(--primary-color, #F0DE00);
+    color: var(--primary-color, #F0DE00);
+text-align: center;
+font-family: Avenir LT Std;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: transparent;
+}
+.ShopProductButton{
+    display: flex;
+    cursor: pointer;
+padding: 8px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: var(--primary-color, #F0DE00);
+}
+.FirstScreenText1{
+    /* width: "20%"; */
+    color: var(--2, #121212);
+font-family: Avenir LT Std;
+font-size: 60px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+margin-bottom: 0%;
+}
+.FirstScreenText2{
+    width: 80%;
+    align-self: stretch;
+    color: var(--2, #121212);
+font-family: Avenir LT Std;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 2%;
+}
+.Quote{
+    display: flex;
+    cursor: pointer;
+width: 446px;
+height: 96px;
+padding: 8px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+color: var(--primary-color, #F0DE00);
+text-align: center;
+font-family: Avenir LT Std;
+font-size: 36px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+background: var(--2, #121212);
+box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.SecondScreen{
+    display: inline-flex;
+height: 582px;
+padding: 40px 162px;
+flex-direction: column;
+padding-bottom: 5%;
+/* justify-content: center; */
+/* align-items: center; */
+/* gap: 10px; */
+flex-shrink: 0;
+background-color: rgba(60, 55, 1, 0.977);
+}
+.SecondScreenText1{
+    display: flex;
+    color: #FFF;
+font-family: Avenir LT Std;
+font-size: 38px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+margin-left: 30%;
+margin-bottom: 0px;
+margin-top: 3%;
+}
+.SecondScreenText2{
+    width: 54%;
+    align-self: stretch;
+    color: #FFF;
+text-align: center;
+font-family: Avenir LT Std;
+font-size: 22px;
+font-style: normal;
+margin-left: 25%;
+margin-top: 3%;
+font-weight: 750;
+line-height: 130.8%; /* 28.776px */
+}
+.SecondScreenText3{
+    align-self: stretch;
+    color: var(--3, #FFF);
+font-family: Avenir LT Std;
+font-size: 20px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+color: var(--primary-color, #F0DE00);
+font-family: Avenir LT Std;
+font-size: 20px;
+font-style: normal;
+font-weight: 750;
+margin-left: 0%;
+margin-top: 3.3%;
+line-height: normal;
+text-decoration-line: underline;
+}
+.SecondScreenNumberText{
+    color: var(--primary-color, #F0DE00);
+font-family: Avenir LT Std;
+font-size: 64px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+margin-bottom: 0%;
+}
+.RackUnitContainer{
+    display: flex;
+width: 348px;
+height: 551px;
+padding: 15px 10px 25px 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #F0DE00;
+}
+.RackUnitContainer:hover{
+    background: rgba(240, 222, 0, 0.20);
+
+}
+.RackUnitButton{
+    display: flex;
+    cursor: pointer;
+width: 173px;
+height: 48px;
+padding: 8px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 6px;
+background: var(--primary-color, #F0DE00);
+color: var(--2, #121212);
+text-align: center;
+font-family: Avenir LT Std;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.FullRackContainer{
+    display: flex;
+width: 348px;
+height: 551px;
+padding: 15px 10px 25px 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #F0DE00;
+}
+.FullRackContainer:hover{
+ background: rgba(240, 222, 0, 0.20);
+
+}
+.CageContainer{
+    display: flex;
+width: 348px;
+height: 551px;
+padding: 15px 10px 25px 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #F0DE00;
+/* background: rgba(240, 222, 0, 0.20); */
+}
+.CageContainer:hover{
+    background: rgba(240, 222, 0, 0.20);
+   
+   }
+.CarouselCard{
+    width: 100%;
+    gap: 0%;
+    /* margin: 0%; */
+}
+/* .carousel-container {
+    margin: 0;
+  } */
+  
+  .CarouselCard .react-multi-carousel-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-dot-list {
+    margin-top: 20px;
+  }
+.Slider{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+   
+height: 225px;
+/* flex-shrink: 0; */
+border-radius: 12px;
+border: 1px solid #F0DE00;
+background-color: black;
+margin-left: 30%;
+margin-right: 12%;
+/* gap: 2px; */
+}
+.Slider:hover{
+background: rgba(240, 222, 0, 0.20);
+cursor: pointer;
+}
+.CardImage{
+    display: flex;
+width: 66px;
+height: 66px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin-left: 25%;
+margin-bottom: 0%;
+background-color: white;
+/* border-radius: 100%; */
+}
+.CardImage:hover{
+    background-color: #F0DE00;
+}
+.CardTitle{
+    color: var(--3, #FFF);
+text-align: center;
+font-family: Avenir LT Std;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 5%;
+margin-bottom: 0%;
+}
+.CardContent{
+    /* width: 266px; */
+    color: var(--3, #FFF);
+text-align: center;
+font-family: Avenir LT Std;
+font-size: 20px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+margin-left: 3%;
+margin-top: 5%;
+padding: 3%;
+}
+/* .FourthScreen{
+    display: flex;
+width: 1348px;
+height: 809px;
+justify-content: center;
+align-items: center;
+gap: 24px;
+flex-shrink: 0;
+} */
+.ListItem{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    border-radius: 8px;
+background: rgba(240, 222, 0, 0.20);
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+width: 557px;
+height: 99px;
+flex-shrink: 0;
+margin-bottom: 2%;
+margin-left: 0px;
+text-decoration: none;
+align-items: center;
+/* gap: 40px; */
+}
+.InputMailAddress{
+    display: flex;
+width: 239px;
+height: 40px;
+padding: 12px 12px 12px 5px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+color: white;
+border-radius: 8px 0px 0px 8px;
+background: var(--2, #121212);
+}
+.SendIcon{
+    display: flex;
+    cursor: pointer;
+width: 50px;
+height: 44px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+color: black;
+border-radius: 0px 8px 0px 0px;
+background: var(--primary-color, #F0DE00);
+}
+.Contactus{
+    display: flex;
+    color: var(--3, #FFF);
+font-family: Avenir LT Std;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.NameField{
+    display: flex;
+    color: var(--primary-color, #F0DE00);
+font-family: Avenir LT Std;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 0px;
+margin-bottom: 1%;
+}
+.InputField{
+    display: flex;
+    min-width: 300px;
+/* height: 44px; */
+padding: 10px 4px 10px 10px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+/* gap: 42px; */
+margin-bottom: 2%;
+align-self: stretch;
+border-radius: 4px;
+border: 1px solid var(--primary-color, #F0DE00);
+background: var(--shadow, #434343);
+}
+.MessageInputField{
+    display: flex;
+    min-width: 300px;
+/* min-height: 80%; */
+padding: 10px 4px 10px 10px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+/* gap: 42px; */
+margin-bottom: 2%;
+/* align-self: stretch; */
+border-radius: 4px;
+border: 1px solid var(--primary-color, #F0DE00);
+background: var(--shadow, #434343);
+}
+.SubmitButton{
+    display: flex;
+    cursor: pointer;
+width: 148px;
+height: 38px;
+min-width: 131px;
+padding: 7px 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid var(--primary-color, #F0DE00);
+background: #F0DE00;
+margin-top: 5%;
+margin-bottom: 13%;
+}
+.HeaderFooterText{
+    width: 108px;
+height: 35px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Avenir LT Std;
+font-size: 24px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+text-align: start;
+margin-left: 0px;
+margin-bottom: 2px;
+}
+.FooterText{
+    display: flex;
+    cursor: pointer;
+    align-items: flex-start;
+    color: #FFF;
+font-family: Avenir LT Std;
+/* font-size: 16px; */
+/* font-style: normal; */
+font-weight: 300;
+/* line-height: normal; */
+margin: 4%;
+text-align: start;
+margin-left: 0px;
+}
+.Card{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    border-radius: 12px;
+    /* background: rgba(240, 222, 0, 0.20); margin-left: 1%; */
+    background-color:rgb(35, 34, 34);
+    width:70%;
+    padding-left: 5%;
+    gap:0%;
+    margin-left: 22%;
+    margin-right: 0%;
+    border: 2px;
+    border-radius: 2%;
+}
+.Card:hover{
+    cursor: pointer;
+    background-color:rgba(240, 222, 0, 0.20) ;
+}
+.QoutedIcon{
+    margin-top: 10%;
+    color: rgba(67, 67, 67, 1);
+}
+.CardTitle2{
+    text-align: start;
+    color: var(--primary-color, #F0DE00);
+font-family: Avenir LT Std;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 9%;
+margin-bottom: 0%;
+}
+.CardContent2{
+    text-align: start;
+    width: 284px;
+    color: var(--3, #FFF);
+font-family: Avenir LT Std;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.UserImage2{
+    width: 60px;
+height: 60px;
+/* flex-shrink: 0; */
+border-radius: 50%;
+}
+.UserName{
+    color: var(--3, #FFF);
+font-family: Avenir LT Std;
+font-size: 16px;
+font-style: normal;
+font-weight: 750;
+line-height: normal;
+margin-bottom: 0%;
+}
+.UserDesignation{
+    color: var(--3, #FFF);
+font-family: Avenir LT Std;
+font-size: 16px;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+margin-top: 1%;
+}
+.image-container {
+    margin-top: 0%;
+    position: relative;
+    height: 110vh; /* Set the height as needed */
+  }
+  
+  .up-and-down-motion {
+    position: absolute;
+    top: 0%; /* Initial position from the top */
+    height: 60%; /* Set the height as needed */
+    animation: upAndDown 2s infinite alternate; /* Adjust the duration as needed */
+  }
+  
+  @keyframes upAndDown {
+    from {
+      top: 15%; /* Initial position from the top */
+    }
+    to {
+      top: 30%; /* Adjust the final position from the top */
+    }
+  }
+  
+  .bulb-image {
+    animation: rotateAnimation 4s infinite; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg) rotateY(0deg);
+    }
+    /* 50% {
+      transform: rotate(180deg) rotateX(180deg);
+    } */
+    100% {
+      transform: rotate(360deg) rotateY(360deg);
+    }
+  }
+  .DropDownContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    background-color: white;
+    margin-top: 10%;
+  }
+  
+  .DropdownItem {
+    padding: 10px;
+    margin: 0% 0;
+    cursor: pointer;
+    border-radius: 7%;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .DropdownItem:hover {
+    border-radius: 7%;
+    background-color: lightgray; /* Lighter background color on hover */
+  }
+  .ErrorMessage{
+    display: flex;
+    width: 30%;
+    font-size: 16px;
+    color: Red;
+    /* background-color: white; */
+  }
+  
+  
+  
+
+
+  
+  
+  
