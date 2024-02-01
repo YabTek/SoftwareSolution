@@ -1,3 +1,4 @@
+
 .NavbarMiddle {
     cursor: pointer;
     color: var(--3, #FFF);
@@ -520,6 +521,14 @@ margin-top: 1%;
     height: 60%; /* Set the height as needed */
     animation: upAndDown 2s infinite alternate; /* Adjust the duration as needed */
   }
+  .navbar{
+    display:flex;
+    flex-direction: row;
+    width:auto;
+    padding:10px 40px;
+    justify-content:space-between;
+    background-color:rgba(240, 222, 0, 1)
+  }
   
   @keyframes upAndDown {
     from {
@@ -574,11 +583,108 @@ margin-top: 1%;
     color: Red;
     /* background-color: white; */
   }
+.icons{
+  display:flex;
+  flex-direction:row;
+  gap: 16px;
+  align-items:center;
+}
+
+.parts{
+  display:flex;
+  align-items:center;
+  padding:0px 2px;
+  gap:7%;
+  flex:1 0 0;
+  margin-left:10%;
+}
+.shopping{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:5px;
+}
+.infos{
+  display: flex;
+  flex-direction: row; 
+  gap: 24px;
+  flex: 1 0 0;
+}
+.FirstScreenImg{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  gap:10px;
+  flex:1 0 0;
+
+}
   
-  
+ 
+  @media only screen and (max-width: 576px) {
+    /* styles for screens up to 576px wide */
+    
+    .texts{
+      display: none;
+    }
+    .contact{
+      display: none;
+    }
+    .parts{
+      display: none;
+    }
+    .SecondScreen {
+      padding: 20px; 
+    }
+    .ShopProductButton{
+      display: none;
+    }
+    .FirstScreenText1 {
+      font-size: 20px; 
+      margin-left: 4px;
+    }
+    .FirstScreenText2 {
+      font-size: 12px; 
+    }
+    .FirstScreenImg{
+      display: none;
+    }
+    .Quote{
+      width: auto;
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    /* styles for screens up to 768px wide */
+    .SecondScreen {
+      padding: 40px 20px; 
+    }
+    .parts{
+      display: none;
+    }
+    .shopping{
+      margin-left: 40px;
+    }
+    .FirstScreenText1 {
+      font-size: 40px; 
+    }
+    .FirstScreenImg{
+      display: none;
+    }
+  }
   
 
-
-  
-  
-  
+   @media screen and (min-width:768px) and (max-width:1024px){
+    .ShopProductButton{
+      display: none;
+    }
+    .shopping{
+      display: none;
+    }
+    .FirstScreenImg{
+      display: none;
+    }
+  } 
+   
+  @media screen and (min-width:1024px) and (max-width:1200px){
+    
+  }

@@ -48,15 +48,15 @@ const Navbar = () => {
 
     return(
         <>
-        <div className="" style={{display:"flex", flexDirection:"row",width:"auto",padding:"10px 40px",justifyContent:"space-between",backgroundColor:"rgba(240, 222, 0, 1)"}}>
-        <div style={{ display: "flex", flexDirection: "row", gap: "24px", flex: "1 0 0" }}>
+        <div className="navbar">
+        <div className="infos">
       <div
         style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "8px", position: "relative", ...(isContactUsHovered && underlineStyle) }}
         onMouseEnter={() => setContactUsHovered(true)}
         onMouseLeave={() => setContactUsHovered(false)}
       >
         <img src={Info} alt="" />
-        <h5 style={{ cursor: "pointer", textDecoration: "none" }}>Contact Us</h5>
+        <h5 className="contact" style={{ cursor: "pointer", textDecoration: "none" }}>Contact Us</h5>
       </div>
 
       <div
@@ -65,7 +65,7 @@ const Navbar = () => {
         onMouseLeave={() => setOpenTicketHovered(false)}
       >
         <img src={Ticket} alt="" />
-        <h5 style={{ cursor: "pointer", textDecoration: "none" }}>Open Ticket</h5>
+        <h5 className="texts" style={{ cursor: "pointer", textDecoration: "none" }}>Open Ticket</h5>
       </div>
 
       <div
@@ -74,11 +74,11 @@ const Navbar = () => {
         onMouseLeave={() => setWhatsAppHovered(false)}
       >
         <img src={WhatsApp} alt="" />
-        <h5 style={{ cursor: "pointer", textDecoration: "none" }}>WhatsApp</h5>
+        <h5 className="texts" style={{ cursor: "pointer", textDecoration: "none" }}>WhatsApp</h5>
       </div>
     </div>
 
-            <div style={{display:"flex",flexDirection:"row",gap: "16px",alignItems:"center"}}>
+            <div className="icons" style={{}}>
                 <img style={{cursor:"pointer"}} src={LinkedIn} alt="" />
                 <img src={Setting} style={{marginTop:"0%", height:"24%",backgroundColor:"black",borderRadius:"100%",padding:"5px",cursor:"pointer"}} alt="" />
                 <img src={SignIn} style={{marginTop:"0%", height:"24%",backgroundColor:"black",borderRadius:"100%",padding:"5px",cursor:"pointer"}} alt="" />
@@ -92,7 +92,7 @@ const Navbar = () => {
                 <img src={LogoText} alt=""  />
             </div>
 
-            <div style={{display:"flex",alignItems:"center",padding:"0px 2px",gap:"7%",flex:"1 0 0",marginLeft:"10%"}}>
+            <div className="parts">
                 <h5 className="NavbarMiddle">Home</h5>
                 <h5 className="NavbarMiddle">Blog</h5>
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center",cursor:"pointer" }} onClick={toggleProductsDropdown}>
@@ -130,11 +130,9 @@ const Navbar = () => {
             </div>
                 )}
                 </div>
-                <h5 className="NavbarMiddle">Contact Us</h5>
             </div>
 
-            <div style={{display:"flex",flexDirection:"row",alignItems:"center",gap:"5px"}}>
-                <button className="SupportButton"> Support</button>
+            <div className="shopping">
                 <button className="ShopProductButton"> Shop Product</button>
                 <img src={ShoppingCart} alt="" style={{cursor:"pointer"}} />
             </div>
