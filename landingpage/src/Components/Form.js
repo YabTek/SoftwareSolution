@@ -9,7 +9,7 @@ const FormComponent = () => {
       };
 
     return(
-        <>
+        <div className='FormComponent'>
         <div style={{ display: "flex", width: "auto", alignItems: "flex-start",justifyContent:"space-between", flexDirection: "row",backgroundColor:"black",paddingLeft:"5%" }}>
             <div style={{display:"flex",flexDirection:"column",width:"50%",marginLeft:"0px",textAlign:"start"}}>
                 <h1 style={{ display: "flex", width: "auto",textAlign:"start", color: "#FFF", fontFamily: "Avenir LT Std", fontSize: "48px", fontStyle: "normal",marginBottom:"0%"}}> Meet with an Expert.</h1>
@@ -42,7 +42,7 @@ we will craft a tailored plan for you.</h4>
         </div>
 
         </div>
-        </>
+        </div>
     )
 }
 

@@ -3,11 +3,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import "./Styles/Home.css";
 import { FaQuoteLeft } from "react-icons/fa";
-
-import RemoteHands from "../Images/Remote-hands.svg"
-import SmartHands from "../Images/HANDS.svg"
-import Monitoring from "../Images/monitoring.svg"
-import Destroying from "../Images/Data-Destroying.svg"
 import UserImage from "../Images/UserImage.svg"
 
 const Card = [
@@ -22,12 +17,6 @@ const Card = [
 ];
 
 const CardSliderComponent2 = () => {
-
-  // const customDot = (
-  //   <div style={{ marginTop: '100px', textAlign: 'start', cursor: 'pointer' }}>
-  //     <span style={{ backgroundColor: 'white', width: '10px', height: '10px', borderRadius: '50%', display: 'inline-block', margin: '0 5px' }} />
-  //   </div>
-  // );
 
   const carouselSettings = {
     responsive: {
@@ -54,8 +43,6 @@ const CardSliderComponent2 = () => {
     speed: 500,
     slidesToScroll: 1,
     customTransition: "transform 500ms ease-in-out",
-    // renderDotsOutside: true, 
-    // customDot,
     itemClass: 'carousel-item',
     itemClassOut: 'carousel-item-out',
     itemClassActive: 'carousel-item-active',
@@ -90,14 +77,6 @@ const CardSliderComponent2 = () => {
           </div>
         ))}
       </Carousel>
-
-      {/* <div style={{ marginTop: '100px', textAlign: 'start' }}>
-        <Carousel {...carouselSettings} customDot={customDot} >
-          {Card.map((card, index) => (
-            <div key={index}></div>
-          ))}
-        </Carousel>
-      </div> */}
 
       </div>
   

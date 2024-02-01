@@ -11,7 +11,7 @@ import Destroying from "../Images/Data-Destroying.svg"
 const Card = [
   { img: "RemoteHands", title: "Remote Hands", content: "24/7 Smart Hands: Your hardware's on-site support solution!" },
   { img: "SmartHands", title: "Smart Hands", content: "24/7 Smart Hands: Your hardware's on-site support solution!" },
-  { img: "Monitoring", title: "Hardware Recycling", content: "24/7 Smart Hands: Your hardware's on-site support solution!" },
+  { img: "Monitoring", title: "Hardware Recycling", content: "24/7 Smart Hands: Your hardware's on-site support!" },
   { img: "Destroying", title: "Data Destroying", content: "24/7 Smart Hands: Your hardware's on-site support solution!" },
   { img: "RemoteHands", title: "Remote Hands", content: "24/7 Smart Hands: Your hardware's on-site support solution!" },
   { img: "SmartHands", title: "Smart Hands", content: "24/7 Smart Hands: Your hardware's on-site support solution!" }
@@ -65,7 +65,7 @@ const CardSliderComponent = () => {
                       card.img === "Destroying" ? Destroying : null
               }
               alt={""}
-              style={{ width: "40%", height: "40%", borderRadius: "50%", }}
+              style={{ display:"flex", width: "40%", height: "40%", borderRadius: "50%"}}
             />
             <div style={{ textAlign: "center", color: "white" }}>
               <h3 className='CardTitle'>{card.title}</h3>

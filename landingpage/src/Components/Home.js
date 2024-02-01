@@ -9,7 +9,6 @@ import Navbar from "./Navbar";
 import SecondScreen from "./SecondScreen";
 import SixthScreen from "./SixthScreen";
 import CardSliderComponent from "./Slider";
-import CardSliderComponent2 from "./Slider2";
 import ThirdScreen from "./ThirdScreen";
 
 

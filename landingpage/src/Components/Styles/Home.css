@@ -52,6 +52,7 @@ font-style: normal;
 font-weight: 750;
 line-height: normal;
 margin-bottom: 0%;
+
 }
 .FirstScreenText2{
     width: 80%;
@@ -99,25 +100,26 @@ background-color: rgba(60, 55, 1, 0.977);
 }
 .SecondScreenText1{
     display: flex;
+    justify-content: center;
     color: #FFF;
 font-family: Avenir LT Std;
 font-size: 38px;
 font-style: normal;
 font-weight: 750;
 line-height: normal;
-margin-left: 30%;
 margin-bottom: 0px;
 margin-top: 3%;
+text-align: center;
 }
 .SecondScreenText2{
-    width: 54%;
+    display: flex;
+    justify-content: center;
     align-self: stretch;
     color: #FFF;
 text-align: center;
 font-family: Avenir LT Std;
 font-size: 22px;
 font-style: normal;
-margin-left: 25%;
 margin-top: 3%;
 font-weight: 750;
 line-height: 130.8%; /* 28.776px */
@@ -157,7 +159,6 @@ padding: 15px 10px 25px 10px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 12px;
 flex-shrink: 0;
 border-radius: 12px;
 border: 1px solid #F0DE00;
@@ -174,7 +175,6 @@ height: 48px;
 padding: 8px 10px;
 justify-content: center;
 align-items: center;
-gap: 10px;
 flex-shrink: 0;
 border-radius: 6px;
 background: var(--primary-color, #F0DE00);
@@ -224,12 +224,8 @@ border: 1px solid #F0DE00;
 .CarouselCard{
     width: 100%;
     gap: 0%;
-    /* margin: 0%; */
 }
-/* .carousel-container {
-    margin: 0;
-  } */
-  
+
   .CarouselCard .react-multi-carousel-list {
     margin: 0;
     padding: 0;
@@ -242,15 +238,15 @@ border: 1px solid #F0DE00;
     display: flex;
     width: 60%;
     flex-direction: column;
-   
+    align-items: center;
+    padding:10px;
 height: 225px;
-/* flex-shrink: 0; */
 border-radius: 12px;
 border: 1px solid #F0DE00;
 background-color: black;
 margin-left: 30%;
 margin-right: 12%;
-/* gap: 2px; */
+margin-bottom:40px;
 }
 .Slider:hover{
 background: rgba(240, 222, 0, 0.20);
@@ -263,7 +259,6 @@ height: 66px;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
-margin-left: 25%;
 margin-bottom: 0%;
 background-color: white;
 /* border-radius: 100%; */
@@ -320,6 +315,7 @@ text-decoration: none;
 align-items: center;
 /* gap: 40px; */
 }
+
 .InputMailAddress{
     display: flex;
 width: 239px;
@@ -521,6 +517,12 @@ margin-top: 1%;
     height: 60%; /* Set the height as needed */
     animation: upAndDown 2s infinite alternate; /* Adjust the duration as needed */
   }
+  .FourthScreen{
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+  }
   .navbar{
     display:flex;
     flex-direction: row;
@@ -618,8 +620,66 @@ margin-top: 1%;
   flex:1 0 0;
 
 }
-  
- 
+.first{
+  display:flex;
+  flex-direction:column;
+  width:25%;
+  padding-left:0%
+}
+.third{
+  display:flex;
+  flex-direction:column
+}
+.cards{
+  display:flex;
+  justify-content: center;
+  flex-direction:row;
+  gap:3%;
+}
+.FourthScreen{
+  display:flex;
+  flex-direction:row;
+  width:auto;
+  background-color:black;
+  padding-left:5%;
+  padding-right:7%;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+.choose{
+  width:100%; 
+  color: #FFF; 
+  font-family: Avenir LT Std;
+  font-size: 48px; 
+  font-style: normal; 
+  font-weight: 750; 
+  line-height: normal;
+  text-align:start;
+  margin-bottom:0% ;
+
+}
+.SixthScreen{
+  display:inline-flex;
+  background-color: black;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:5%;
+
+}
+.desc{
+ width:88%; 
+ color: #FFF; 
+ font-family: Avenir LT Std; 
+ font-size: 18px; 
+ font-style: normal; 
+ font-weight: 400; 
+ line-height: normal;
+ align-self: stretch;
+ text-align:start;
+ margin-top:2% 
+
+}
   @media only screen and (max-width: 576px) {
     /* styles for screens up to 576px wide */
     
@@ -634,6 +694,7 @@ margin-top: 1%;
     }
     .SecondScreen {
       padding: 20px; 
+      
     }
     .ShopProductButton{
       display: none;
@@ -651,6 +712,78 @@ margin-top: 1%;
     .Quote{
       width: auto;
     }
+    .SecondScreenText1{
+      margin-left: auto;
+      padding-top:50px;
+      padding-bottom: 20px;
+    }
+    
+    .SecondScreenText2{
+      display: none;
+    }
+    .SecondScreenText3{
+      display: none;
+    }
+    .priority{
+      display:none;
+    }
+    .first{
+      display: none;
+    }
+    .border{
+      display: none;
+    }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0px;
+
+    }
+    .RackUnitContainer{
+      height: 445px;
+      width: 300px;
+      
+
+    }
+    .RackUnitButton{
+      margin-top:0px;
+    }
+    .FullRackContainer{
+      margin-top:20px;
+      height: 450px;
+      width: 300px;
+    }
+    .CageContainer{
+      display: none;
+    }
+    .Slider{
+      margin-left: 60px;
+    }
+   .choose{
+    font-size:24px;
+   }
+   .desc{
+    display: none;
+   }
+
+   .ListItem{
+    width:auto;
+   }
+   
+   .FourthScreenImage{
+    display: none;
+
+   }
+   .listDesc{
+    font-size: px;
+   }
+   .FifthScreen,
+    .SixthScreen,
+    .FormComponent,
+    .Footer {
+        display: none;
+    }
     
   }
   @media only screen and (max-width: 768px) {
@@ -667,9 +800,48 @@ margin-top: 1%;
     .FirstScreenText1 {
       font-size: 40px; 
     }
+    
     .FirstScreenImg{
       display: none;
     }
+    .first{
+      display: none;
+    }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0px;
+
+    }
+    .RackUnitContainer{
+      height: 445px;
+      width: 300px;
+      
+
+    }
+    .RackUnitButton{
+      margin-top:0px;
+    }
+    .FullRackContainer{
+      margin-top:20px;
+      height: 450px;
+      width: 300px;
+    }
+    .CageContainer{
+      display: none;
+    }
+    .FourthScreenImage{
+      display: none;
+  
+     }
+     .FifthScreen,
+     .SixthScreen,
+     .FormComponent,
+     .Footer {
+         display: none;
+     }
+     
   }
   
 
@@ -683,8 +855,62 @@ margin-top: 1%;
     .FirstScreenImg{
       display: none;
     }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .RackUnitContainer{
+      height: 445px;
+      width: 300px;
+      
+
+    }
+    .RackUnitButton{
+      margin-top:0px;
+    }
+    .FullRackContainer{
+      margin-top:20px;
+      height: 450px;
+      width: 300px;
+    }
+    .CageContainer{
+      display: none;
+    }
+    .FourthScreenImage{
+      display: none;
+  
+     }
+    .FifthScreen,
+    .SixthScreen,
+    .FormComponent,
+    .Footer {
+        display: none;
+    }
+    
+    
   } 
    
-  @media screen and (min-width:1024px) and (max-width:1200px){
+  @media screen and (min-width:1024px) and (max-width:1366px){
+    .cards{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .CageContainer{
+      display: none;
+    }
+    .FourthScreenImage{
+      display: none;
+  
+     }
+     .FifthScreen,
+    .SixthScreen,
+    .FormComponent,
+    .Footer {
+        display: none;
+    }
+    
     
   }

@@ -36,7 +36,7 @@ const Footer = () => {
   };
 
     return(
-        <>
+        <div className="Footer">
         <div style={{display:"flex",flexDirection:"column",width:"auto", backgroundColor:"black"}}>
 
             <div style={{ display: "flex",width:"auto", padding: "5px 173px 28px 40px", flexDirection: "row", justifyContent: "space-between", color: "var(--3, #FFF)",background:"var(--backround-drop, #434343)" }}>
@@ -129,7 +129,7 @@ const Footer = () => {
             </div>
 
         </div>
-        </>
+        </div>
     )
 }
 
